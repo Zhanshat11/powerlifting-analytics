@@ -1,6 +1,6 @@
 # What Does It Take to Be a Strong Powerlifter? 🏋️
 
-An end-to-end data analytics project on **386,414 real competition results** from the
+An end-to-end data analytics project — Python, pandas, SQL, scikit-learn — on **386,414 real competition results** from the
 [OpenPowerlifting](https://www.openpowerlifting.org/) project — covering 8,482 meets across
 45 countries from 1974 to 2018.
 
@@ -41,6 +41,8 @@ where_do_i_rank("M", 83, 500)
   normalized metrics (Wilks) exist
 - **Machine learning**: linear baseline vs gradient boosting, permutation feature
   importance, honest interpretation of what a model can and cannot explain
+- **SQL**: loading the dataset into SQLite and querying it with multi-table JOINs,
+  GROUP BY aggregations, CTEs, and window functions (`ROW_NUMBER() OVER (PARTITION BY ...)`)
 
 ## Project structure
 
